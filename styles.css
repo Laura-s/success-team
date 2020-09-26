@@ -147,11 +147,6 @@ table {
     background-repeat: no-repeat;
 }
 
-.line{
-    border-bottom: 3px black solid;
-    width: 30px;
-}
-
 .about-main{
     width: 50%;
     padding: 40px;
@@ -173,4 +168,65 @@ table {
     letter-spacing: 2px;
     padding-top: 30px;
     padding-bottom: 30px;
+}
+.help{
+    background-image: url(/images/help.jpg);
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.line{
+    border-bottom: 3px black solid;
+    width: 30px;
+    padding-top: 50px;
+}
+.help-title{
+    font-size: 43px;
+    font-weight: bold;
+    margin-bottom: 60px;
+    padding-top: 20px;
+}
+
+.help-boxes{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+
+}
+.help-boxes:first-child{
+    margin-left: 25px;
+}
+
+/* .help-boxes:nth-child(2){
+    margin: 0px 25px;
+} */
+.box{
+    border: 5px black solid;
+    padding: 32px 25px;
+    width: 25%;
+    text-align: center;
+}
+.box h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+.box p{
+    font-size: 15px;
+}
+.box-p{
+    margin: 12px 0;
+}
+.divider{
+    border-top: 2px black solid;
+    margin: 20px 0px;
+}
+.book-button{
+    background-color:rgb(87, 187, 191);
+    font-size: 16px;
+    padding: 8px 30px;
+    border: none;
+}
+.book-button:hover{
+    background-color:rgb(121, 186, 189); ;
 }
