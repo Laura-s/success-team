@@ -104,6 +104,7 @@ table {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
 }
 
 #hero h4{
@@ -171,15 +172,16 @@ table {
 }
 .help{
     background-image: url(/images/help.jpg);
-    height: 600px;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
+    padding-bottom: 50px;
+    padding-top: 70px;
 }
 .line{
     border-bottom: 3px black solid;
     width: 30px;
-    padding-top: 50px;
+    
 }
 .help-title{
     font-size: 43px;
@@ -206,10 +208,15 @@ table {
     padding: 32px 25px;
     width: 25%;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .box h3{
     font-size: 20px;
     font-weight: bold;
+    line-height: 24px;
+    min-height: 48px;
 }
 .box p{
     font-size: 15px;
@@ -228,5 +235,108 @@ table {
     border: none;
 }
 .book-button:hover{
-    background-color:rgb(121, 186, 189); ;
+    background-color:rgb(121, 186, 189); 
 }
+.money{
+    padding-bottom: 25px;
+}
+
+.service-b{
+    margin-left: auto;
+    display: block;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+#contact{
+    background-color: rgb(121, 186, 189);
+    padding: 70px 130px 80px 130px;
+    display: flex;
+}
+.info{
+    font-size: 15px;
+    width: 50%;
+}
+
+.info h3{
+    font-weight: bold;
+    font-size: 17px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.adress{
+    padding-bottom: 20px;
+    
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+
+.mb-40{
+    margin-bottom: 40px;
+}
+
+.links{
+    /* display: inline; */
+    list-style: none;
+    white-space: nowrap;
+}
+.links li{
+    display: inline;
+    margin-right: 16px;
+}
+.copyright{
+    padding-top: 110px;
+}
+
+.form{
+    width: 50%;
+}
+form{
+    flex-flow: column;
+    display: flex;
+}
+form label{
+    font-size: 17px;
+    padding-bottom: 10px;
+}
+form input, form textarea{
+    background-color:rgb(121, 186, 189) ;
+    border: 2px black solid;
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 19px;
+    
+    box-sizing: border-box;
+    
+}
+form input{
+    height: 35px;
+    padding: 3px 3px 3px 12px;
+}
+
+form textarea{
+    padding: 10px 10px 3px 16px;
+}
+
+ .form input::placeholder, 
+ .form textarea::placeholder {
+    color: black;
+ }
+
+.form input:hover,
+.form textarea:hover{
+    background-color: rgba(58, 124, 128, 1);
+ }
+ 
+ .form input:focus,
+.form textarea:focus{
+    background-color: rgba(186, 252, 255, 1);
+ }
+ form button[type="submit"]{
+     width: 142px;
+     height: 35px;
+     padding: 0;
+     align-self: flex-end;
+ }
